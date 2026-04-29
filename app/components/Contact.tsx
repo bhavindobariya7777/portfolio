@@ -54,8 +54,8 @@ export default function Contact() {
 
     const contactCards = [
         { icon: Mail, label: 'Email', value: portfolio.email, href: `https://mail.google.com/mail/?view=cm&to=${portfolio.email}`  },
-        { icon: LinkedinIcon, label: 'LinkedIn', value: 'Dipal Patel', href: portfolio.socials.linkedin },
-        { icon: GithubIcon, label: 'GitHub', value: 'Dipal Patel', href: portfolio.socials.github },
+        { icon: LinkedinIcon, label: 'LinkedIn', value: 'Bhavin Dobariya', href: portfolio.socials.linkedin },
+        { icon: GithubIcon, label: 'GitHub', value: 'Bhavin Dobariya', href: portfolio.socials.github },
         { icon: MapPin, label: 'Location', value: portfolio.location  },
     ]
 

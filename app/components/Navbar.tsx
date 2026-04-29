@@ -10,7 +10,7 @@ import { portfolio } from '../../data/portfolio'
 const links = [
     { label: 'Home', href: '#home' },
     { label: 'About', href: '#about' },
-    { label: 'Introduction', href: '#Introduction' },
+    // { label: 'Introduction', href: '#Introduction' },
     { label: 'Skills', href: '#skills' },
     { label: 'Projects', href: '#projects' },
     { label: 'Stats', href: '#stats' },
@@ -69,15 +69,15 @@ export default function Navbar() {
         >
             <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
 
-                {/* LOGO */}
+
                 <a href="#home" className="flex items-center gap-2">
-                    <img src="/Dp-logo.png" alt="DP Logo" className="h-7 w-7" />
+                    <img src="/BD-logo.png" alt="DP Logo" className="h-7 w-7" />
                     <span className="hidden sm:block font-semibold text-[var(--text)]">
             {portfolio.name}
           </span>
                 </a>
 
-                {/* DESKTOP MENU */}
+
                 <ul className="hidden items-center gap-8 md:flex">
                     {links.map((l) => (
                         <li key={l.href}>

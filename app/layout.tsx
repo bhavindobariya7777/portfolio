@@ -3,7 +3,7 @@ import './globals.css'
 import { ThemeProvider } from 'next-themes'
 
 export const metadata = {
-    title: 'Dipal Patel — Full Stack Developer | MERN, Next.js & AI',
+    title: 'Bhavin Dobariya — Sr. Full-Stack Engineer | MERN, AI & Cloud',
 
     description: 'Full-Stack Developer specializing in MERN, Next.js, and AI-powered applications. Building fast, scalable, and modern web experiences.',
 
@@ -24,7 +24,7 @@ export const metadata = {
     authors: [{ name: 'Dipal Patel' }],
 
     openGraph: {
-        title: 'Dipal Patel — Full Stack Developer',
+        title: 'Bhavin Dobariya — Sr. Full Stack Developer',
         description: 'Building scalable web apps with MERN, Next.js, and AI integration.',
         type: 'website',
     },

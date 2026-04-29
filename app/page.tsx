@@ -35,15 +35,14 @@ export default function App() {
             <main className="relative">
                 <Hero />
                 <About />
-                <IntroVideo />
+                {/*<IntroVideo />*/}
                 <Skills />
                 <Projects />
-
                 <Stats />
                 <Contact />
 
                 <footer className="border-t border-white/10 py-8 text-center text-sm text-[#94a3b8]">
-                    © {new Date().getFullYear()} Dipal Patel. Crafted with Next.js, Three.js & Framer Motion.
+                    © {new Date().getFullYear()} Bhavin Dobariya. Built with precision and modern tools
                 </footer>
             </main>
         </>
