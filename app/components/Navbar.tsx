@@ -71,14 +71,14 @@ export default function Navbar() {
 
 
                 <a href="#home" className="flex items-center gap-2">
-                    <img src="/BD-logo.png" alt="DP Logo" className="h-7 w-7" />
+                    <img src="/BD-logo.png" alt="DP Logo" className="h-6 w-6" />
                     <span className="hidden sm:block font-semibold text-[var(--text)]">
             {portfolio.name}
           </span>
                 </a>
 
 
-                <ul className="hidden items-center gap-8 md:flex">
+                <ul className="hidden items-center gap-8 lg:flex">
                     {links.map((l) => (
                         <li key={l.href}>
                             <a
@@ -92,7 +92,7 @@ export default function Navbar() {
                 </ul>
 
                 {/* RIGHT SIDE */}
-                <div className="hidden md:flex items-center gap-3">
+                <div className="hidden lg:flex items-center gap-3">
                     <ThemeToggle />
                     <a
                         href="#contact"
@@ -103,7 +103,7 @@ export default function Navbar() {
                 </div>
 
 
-                <div className="flex md:hidden items-center gap-2">
+                <div className="flex lg:hidden items-center gap-2">
                     <ThemeToggle />
                     <button onClick={() => setOpen(!open)}>
                         {open ? <X size={24} /> : <Menu size={24} />}
@@ -126,7 +126,7 @@ export default function Navbar() {
                             background: 'var(--menu-bg)',
                             borderColor: 'var(--menu-border)'
                         }}
-                        className="absolute top-full left-0 w-full md:hidden
+                        className="absolute top-full left-0 w-full lg:hidden
   backdrop-blur-3xl
   border-t
   shadow-[0_20px_60px_rgba(0,0,0,0.5)]"

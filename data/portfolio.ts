@@ -187,7 +187,8 @@ export const portfolio = {
         {
             title: "Real-Time Chat Application",
             description:
-                "A scalable chat system with instant messaging, typing indicators, and seamless communication.",
+                "A scalable chat system with instant messaging, typing indicators, and seamless communication.\n" +
+                "Built with real-time architecture for low latency and high reliability",
             image:
                 "chatApp-img.jpg",
             tech: ["Socket.IO", "Node.js", "React", "MongoDB", "Express"],
@@ -197,7 +198,8 @@ export const portfolio = {
         {
             title: "Eyevestor Platform",
             description:
-                "A clean and responsive investor platform UI built with Next.js and Tailwind CSS.",
+                "A clean and responsive investor platform UI built with Next.js and Tailwind CSS.\n" +
+                "Designed for seamless user experience with modern layouts and intuitive navigation.",
             image:
                 "Eyevestor-img.jpg",
             tech: ["Next.js", "Tailwind", "JavaScript"],

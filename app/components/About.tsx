@@ -11,7 +11,7 @@ export default function About() {
     const { about } = portfolio
 
     return (
-        <section id="about" className="relative w-full border-t border-[var(--border-subtle)] py-32 bg-[var(--bg)]">
+        <section id="about" className="relative w-full border-t border-[var(--border-subtle)] pb-32 pt-[100px] bg-[var(--bg)]">
             <div className="mx-auto max-w-7xl px-6">
                 <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }} className="mb-16 text-center">
                     {/*<p className="mb-3 text-sm uppercase tracking-[0.3em] text-[#22d3ee]">About</p>*/}
@@ -22,13 +22,13 @@ export default function About() {
                     <motion.div initial={{ opacity: 0, x: -40 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.7 }} className="relative lg:col-span-2">
                         <div className="relative mx-auto w-full max-w-sm">
                             <div className="absolute -inset-2 rounded-2xl bg-gradient-to-br from-[#6366f1] to-[#22d3ee] opacity-60 blur-2xl" />
-                            <div className="relative overflow-hidden rounded-2xl border-2 border-[#6366f1]/40 ">
+                            <div className="relative overflow-hidden rounded-2xl border-2 border-[#6366f1]/40 group">
                                 <Image
                                     src={portfolio.photo}
                                     alt={portfolio.name}
                                     width={600}
                                     height={600}
-                                    className="w-full h-full object-cover"
+                                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                     unoptimized
                                 />
                             </div>
